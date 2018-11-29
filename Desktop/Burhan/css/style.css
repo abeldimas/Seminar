@@ -1,0 +1,40 @@
+body {
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+}
+
+.move-area{/*normally use body*/
+  width: 100px;
+  height: 100px;
+  padding: 290px 650px;
+}
+
+}
+.container {
+  width: 100px;
+}
+
+input {
+  margin-left: 600px;
+  margin-top: 200px;
+}
+
+.eye {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  /* background: #f0ffff; */
+}
+.eye:after { /*pupil*/
+  position: absolute;
+  bottom: 17px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  background: #000;
+  border-radius: 50%;
+  content: " ";
+}
